@@ -1,0 +1,15 @@
+name: Test
+on: push
+jobs:
+  buildTest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download git
+        uses: actions/checkout@v3
+      - name: Update kernel
+        run: sudo apt-get update && sudo apt-get install -y
+      - name: Download dependencies
+        run: sudo apt install python python3 pip pip3; pip3 install pyinstaller
+      - name: Build
+        run: pyinstaller winlocker.py --onefile -w
+          
