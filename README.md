@@ -11,15 +11,15 @@ Download [Python](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.e
 
 #### Ubuntu:
 ```sh
-sudo apt install python3 pip pip3
+sudo apt install python3 pip
 ```
 #### Fedora:
 ```sh
-sudo dnf install python3 pip pip3
+sudo dnf install python3 pip
 ```
 #### ArchLinux <3:
 ```sh
-sudo pacman -S python3 pip pip3
+sudo pacman -S python3 pip
 ```
 ---
 ### **Download Dependencies**

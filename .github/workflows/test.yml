@@ -9,7 +9,7 @@ jobs:
       - name: Update kernel
         run: sudo apt-get update && sudo apt-get install -y
       - name: Download dependencies
-        run: sudo apt install python3 pip pip3; pip3 install pyinstaller
+        run: sudo apt install python3 pip; pip3 install pyinstaller
       - name: Build
         run: pyinstaller winlocker.py --onefile -w
           
