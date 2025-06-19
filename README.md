@@ -9,7 +9,7 @@
 #### Windows:
 Download [Python](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe).
 
-#### Ubuntu:
+#### Ubuntu <3:
 ```sh
 sudo apt install python3 pip
 ```
